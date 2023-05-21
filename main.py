@@ -4,5 +4,5 @@ detector = Detector(model_type="PS")
 
 detector.onImage("images/1.jpg")
 
-# use ctrl+C in terminal to stop video (it will hog all your CPU memory because I didn't use cuda/GPU with this project)
+# use ctrl+C in terminal to stop video (it will hog all your CPU memory because the project environment doesn't use cuda/GPU, only CPU)
 detector.onVideo("videos/A.mp4")
